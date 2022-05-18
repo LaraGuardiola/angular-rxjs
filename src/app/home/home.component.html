@@ -1,1 +1,5 @@
-<p>home works!</p>
+<div>
+    <button (click)="onClick()">Fetch random image</button>
+    <img *ngIf="photoUrl" [src]="photoUrl"/>
+</div>
+
